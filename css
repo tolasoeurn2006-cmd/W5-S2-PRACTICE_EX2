@@ -1,0 +1,23 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  display: grid;
+  grid-template-rows: 90px 90px 90px;
+  background: #4dc4ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.span2 {
+  grid-column: span 2;
+}
+
+button {
+  align-self: end;
+  padding: 10px 20px;
+  background-color: rgb(165, 120, 206);
+}
+
